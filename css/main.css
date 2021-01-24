@@ -14,12 +14,8 @@ body {
     color: #dddddd
 }
 
-.navbar li:hover {
+.navbar a:hover {
     background-color: #dddddd
-}
-
-.nav-separator:hover {
-    background-color: #333333;
 }
 
 .navbar li {
