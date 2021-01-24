@@ -8,6 +8,10 @@ body {
     overflow: hidden;
 }
 
+.navbar a {
+    color: #dddddd
+}
+
 .navbar ul {
     list-style-type: none;
     padding: 10px 10px;
