@@ -9,9 +9,13 @@ body {
 
 .navbar ul {
     list-style-type: none;
-    margin: 10;
-    padding: 10;
+    padding: 10px 10px;
+    text-align: center;
     color: #dddddd
+}
+
+.navbar ul:hover {
+    background-color: #dddddd
 }
 
 .navbar li {
