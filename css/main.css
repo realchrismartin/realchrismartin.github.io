@@ -2,8 +2,11 @@ body {
     font-family: "Lucida Console", monospace;
 }
 
-nav ul {
+nav {
     background-color: #333333;
+}
+
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
