@@ -14,7 +14,7 @@ body {
     color: #dddddd
 }
 
-.navbar ul:hover {
+.navbar li:hover {
     background-color: #dddddd
 }
 
