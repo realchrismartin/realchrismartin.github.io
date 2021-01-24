@@ -13,7 +13,3 @@ nav ul {
 nav li {
     float: right;
 }
-
-nav li a:hover {
-    background-color: white;
-}
