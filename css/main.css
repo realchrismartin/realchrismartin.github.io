@@ -9,6 +9,14 @@ body {
     position: fixed;
 }
 
+.navbar title {
+    float: left;
+}
+
+.navbar links {
+    float: right;
+}
+
 .navbar a {
     color: #dddddd
 }
