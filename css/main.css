@@ -10,27 +10,25 @@ body {
 }
 
 .navbar title {
+    color: #dddddd;
     float: left;
 }
 
 .navbar links {
     float: right;
+    color: #dddddd;
 }
 
-.navbar a {
-    color: #dddddd
-}
-
-.navbar ul {
+.navbar links ul {
     list-style-type: none;
     padding: 10px 10px;
     color: #dddddd
 }
 
-.navbar li:hover {
+.navbar links li:hover {
     background-color: #dddddd
 }
 
-.navbar li {
+.navbar links li {
     float: right;
 }
