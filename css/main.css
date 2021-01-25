@@ -7,18 +7,22 @@ body {
    color: #dddddd;
 }
 
-.navbar ul {
-    list-style-type: none;
-}
 
 .navbar {
     position: fixed;
     background-color: #333333;
-    list-style-type: none;
     padding: 10px 10px;
     color: #dddddd;
     text-align: center;
     overflow: hidden;
+}
+
+.navbar-links ul {
+    list-style-type: none;
+}
+
+.navbar-links li {
+    display: inline;
 }
 
 .navbar-links li:hover {
