@@ -26,3 +26,7 @@ body {
 .navbar-links li:hover {
     background-color: #dddddd
 }
+
+.navbar-links a {
+    color:#dddddd
+}
