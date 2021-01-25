@@ -3,12 +3,11 @@ body {
 }
 
 .navbar {
-    background-color: #333333;
-
     position: fixed;
 }
 
 .navbar-title {
+    float:inline-start;
     color: #dddddd;
 }
 
@@ -17,7 +16,7 @@ body {
     padding: 10px 10px;
     color: #dddddd;
     text-align: center;
-    overflow: hidden;dddddd;
+    overflow: hidden;
 }
 
 .navbar-links li:hover {
