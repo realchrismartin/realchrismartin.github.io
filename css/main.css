@@ -14,13 +14,13 @@ body {
     float: left;
 }
 
-.navbar .links {
+.navbar .links li {
     float: right;
     list-style-type: none;
     padding: 10px 10px;
     color: #dddddd;
 }
 
-.links li:hover {
+.navbar .links li:hover {
     background-color: #dddddd
 }
