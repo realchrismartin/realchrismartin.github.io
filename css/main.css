@@ -9,18 +9,18 @@ body {
     position: fixed;
 }
 
-.navbar title {
+.navbar .title {
     color: #dddddd;
     float: left;
 }
 
-.navbar-links {
+.navbar .links {
     float: right;
     list-style-type: none;
     padding: 10px 10px;
     color: #dddddd
 }
 
-.navbar-links li:hover {
+.links li:hover {
     background-color: #dddddd
 }
