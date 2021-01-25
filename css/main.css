@@ -16,10 +16,6 @@ body {
 
 .navbar-links {
     float: right;
-    color: #dddddd;
-}
-
-.navbar-links ul {
     list-style-type: none;
     padding: 10px 10px;
     color: #dddddd
