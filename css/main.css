@@ -7,6 +7,10 @@ body {
    color: #dddddd;
 }
 
+.navbar ul {
+    list-style-type: none;
+}
+
 .navbar {
     position: fixed;
     background-color: #333333;
