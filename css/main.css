@@ -2,19 +2,16 @@ body {
     font-family: "Lucida Console", monospace;
 }
 
-
-.navbar-title {
-   color: #dddddd;
-}
-
-
 .navbar {
     position: fixed;
     background-color: #333333;
     padding: 10px 10px;
-    color: #dddddd;
     text-align: center;
     overflow: hidden;
+}
+
+.navbar-title {
+   color: #dddddd;
 }
 
 .navbar-links ul {
@@ -22,6 +19,7 @@ body {
 }
 
 .navbar-links li {
+    color: #dddddd;
     display: inline;
 }
 
