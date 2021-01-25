@@ -4,21 +4,20 @@ body {
 
 .navbar {
     background-color: #333333;
-    text-align: center;
-    overflow: hidden;
+
     position: fixed;
 }
 
 .navbar-title {
     color: #dddddd;
-    float: left;
 }
 
 .navbar-links {
-    float: right;
     list-style-type: none;
     padding: 10px 10px;
     color: #dddddd;
+    text-align: center;
+    overflow: hidden;dddddd;
 }
 
 .navbar-links li:hover {
