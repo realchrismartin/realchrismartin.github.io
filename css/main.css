@@ -4,31 +4,43 @@
 
 @media(max-width:979px) {
     .content {
-        margin-top: 12%;
+        padding-top: 10%;
         font-size: 0.75em;
     }
 
     .navbar {
         font-size: 0.75em;
+    }
+
+    #intro-image {
+        margin-left:0%;
+        padding-left:0%;
+        padding-top: 6%;
     }
 }
 
 @media(min-width:980px) {
     .content {
-        margin-top: 10%;
+        padding-top: 12%;
         font-size: 1em;
     }
 
     .navbar {
         font-size: 1em;
     }
+
+    #intro-image {
+        text-align:center;
+        padding-top:6%;
+    }
 }
 
 .navbar {
     top:0;
+    left:10%;
+    width:80%;
     position: fixed;
     background-color: #333333;
-    padding-right:5%;
     text-align:center;
     overflow: hidden;
 }
@@ -56,4 +68,9 @@
 
 .navbar-links a {
     color:#dddddd
+}
+
+#intro-text {
+    text-align: center;
+    font-weight: bold;
 }
