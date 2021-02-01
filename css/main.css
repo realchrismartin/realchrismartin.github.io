@@ -4,18 +4,18 @@
 
 @media(max-width:979px) {
     .content {
-        padding-top: 10%;
-        font-size: 0.75em;
+        padding-top: 15%;
+        font-size: 0.75em; 
     }
-
-    .navbar {
+         
+    .navbar { 
         font-size: 0.75em;
-    }
+     }
 
     #intro-image {
         margin-left:0%;
         padding-left:0%;
-        padding-top: 6%;
+        margin-top:15%;
     }
 }
 
@@ -31,7 +31,7 @@
 
     #intro-image {
         text-align:center;
-        padding-top:6%;
+        margin-top:10%;
     }
 }
 
