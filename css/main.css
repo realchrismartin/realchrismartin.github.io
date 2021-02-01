@@ -58,16 +58,34 @@
     display: inline;
 }
 
-.navbar-links li:hover {
-    background-color: rgba(0,0,0,100);
+.navbar-links a {
+    color:#dddddd;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+    padding: 3px;
+}
+
+.navbar-links a:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+.navbar-links a::after {
+    position: absolute;
+    content: "";
+    height: 1px;
+    width:100%;
+    left:0;
+    bottom:0;
+    background: #ffffff;
+    transition: transform 0.5s;
+    transform: scaleX(0);
+    transform-origin: right;
 }
 
 .navbar-links .nav-separator:hover {
     background-color:rgba(0,0,0,0);
-}
-
-.navbar-links a {
-    color:#dddddd
 }
 
 #intro-text {

@@ -3,9 +3,16 @@
 }
 
 .quote {
-    text-align: left;
+    text-align: center;
+    font-style: italic;
 }
 
 .source {
-    font-weight: bold;
+    text-align: center;
+    font-style: normal;
+    font-weight:bold;
+}
+
+.topic {
+    font-weight: normal;
 }
