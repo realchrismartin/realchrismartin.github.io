@@ -16,6 +16,11 @@ body {
          
     .navbar { 
         scale:75%;
+        text-align:left;
+     }
+
+     #nav-separator-mid {
+         color: rgba(0,0,0,0)
      }
 
     #intro-image {
@@ -68,12 +73,10 @@ body {
 .navbar-links ul {
     list-style-type: none;
 }
-
 .navbar-links li {
     color: #dddddd;
-    display: inline;
+    display:inline;
 }
-
 .navbar-links a {
     color:#dddddd;
     text-decoration: none;
