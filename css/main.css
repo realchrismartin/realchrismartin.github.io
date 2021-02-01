@@ -6,6 +6,7 @@
     .content {
         padding-top: 15%;
         font-size: 0.75em; 
+        text-align: left;
     }
          
     .navbar { 
@@ -23,6 +24,7 @@
     .content {
         padding-top: 12%;
         font-size: 1em;
+        text-align:center;
     }
 
     .navbar {

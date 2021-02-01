@@ -2,11 +2,14 @@
     font-weight:bold;
 }
 
-h1 h2 {
-    text-align: center;
+#name {
+    font-weight: bold;
 }
 
-#about-list {
-    text-align: center;
+#epithet {
+    font-style: italic;
+}
+
+.about-list {
     list-style-type: none;
 }
