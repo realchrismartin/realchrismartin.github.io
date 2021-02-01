@@ -2,10 +2,11 @@
     font-weight:bold;
 }
 
-h1 {
+h1 h2 {
     text-align: center;
 }
 
 #about-list {
     text-align: center;
+    list-style-type: none;
 }
