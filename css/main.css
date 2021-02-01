@@ -1,12 +1,33 @@
-body {
+.content {
     font-family: "Lucida Console", monospace;
 }
 
+@media(max-width:979px) {
+    .content {
+        margin-top: 1%;
+    }
+
+    .navbar {
+        font-size: 0.5em;
+    }
+}
+
+@media(min-width:980px) {
+    .content {
+        margin-top: 5%;
+    }
+
+    .navbar {
+        font-size: 1em;
+    }
+}
+
 .navbar {
+    top:0;
     position: fixed;
     background-color: #333333;
-    padding: 10px 10px;
-    text-align: center;
+    text-align:center;
+    padding-right:5%;
     overflow: hidden;
 }
 
@@ -24,7 +45,11 @@ body {
 }
 
 .navbar-links li:hover {
-    background-color: #dddddd
+    background-color: rgba(0,0,0,100);
+}
+
+.navbar-links .nav-separator:hover {
+    background-color:rgba(0,0,0,0);
 }
 
 .navbar-links a {
