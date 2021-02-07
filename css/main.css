@@ -24,6 +24,7 @@ body {
     grid-template-rows: 1fr;
     grid-template-areas: "nav-top-row nav-mid-row nav-bottom-row";
     grid-gap:1px;
+    max-height:75%;
 }
 
 .navbar-links-top-row {
@@ -40,6 +41,7 @@ body {
 
 .navbar-title {
    color: #dddddd;
+   max-height: 25%;
 }
 
 .navbar-links ul {
@@ -104,6 +106,7 @@ body {
     .navbar { 
         background-color: blueviolet;
         width:100%;
+        min-height:15%;
         left:0%;
         font-size: 0.65em;
      }
