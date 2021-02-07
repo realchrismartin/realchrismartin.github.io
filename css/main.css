@@ -110,13 +110,11 @@ body {
 
     .navbar-title {
         margin:2px;
-        max-height:10px;
         padding:5px;
     }
 
     .navbar-links > div {
          margin:3px;
-         max-height:10px;
          padding:1px;
      }
 
