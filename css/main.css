@@ -39,13 +39,17 @@ body {
     grid-area: nav-bottom-row;
 }
 
-.navbar-title {
+.navbar-title > p {
    color: #dddddd;
    max-height: 25%;
+   margin:0;
+   padding:0;
 }
 
 .navbar-links ul {
     list-style-type: none;
+    margin: 1px;
+    padding: 1px;
 }
 .navbar-links li {
     color: hsl(0, 0%, 87%);
@@ -104,7 +108,6 @@ body {
     }
          
     .navbar { 
-        background-color: blueviolet;
         width:100%;
         left:0%;
         font-size: 0.65em;
@@ -115,8 +118,8 @@ body {
         padding:5px;
     }
 
-    .navbar-links > div {
-         margin:3px;
+    .navbar-links ul {
+         margin:1px;
          padding:1px;
      }
 
@@ -134,8 +137,12 @@ body {
 
     .navbar-links {
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 1fr auto;
         grid-template-areas: "nav-top-row" "nav-bottom-row";
+    }
+
+    .navbar-links-mid-row {
+        height:0px;
     }
 
 }
@@ -166,6 +173,11 @@ body {
 
     .navbar {
         font-size: 1em;
+        min-height:2%;
+    }
+
+    .navbar-links {
+        margin: 5px;
     }
 
     .navbar-links-top-row {
