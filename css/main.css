@@ -116,11 +116,13 @@ body {
     .navbar-title {
         margin:2px;
         padding:5px;
+        font-size: 16pt;
     }
 
     .navbar-links ul {
          margin:1px;
          padding:1px;
+         font-size: 12pt;
      }
 
     #nav-separator-mid {
