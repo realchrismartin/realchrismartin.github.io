@@ -6,55 +6,6 @@ body {
     font-family: "Lucida Console", monospace;
 }
 
-@media(max-width:979px) {
-    .content {
-        margin-top:20%;
-        padding-top: 15%;
-        font-size: 0.75em; 
-        text-align: left;
-    }
-         
-    .navbar { 
-        scale:75%;
-        text-align:left;
-     }
-
-     #nav-separator-mid {
-         color: rgba(0,0,0,0)
-     }
-
-    #intro-image {
-        margin-left:0%;
-        padding-left:0%;
-        scale:50%;
-        margin-left:-40%;
-        margin-top:-15%;
-        text-align:center;
-        position:fixed;
-    }
-
-    #intro-text {
-        padding-top:1%;
-    }
-}
-
-@media(min-width:980px) {
-    .content {
-        padding-top: 12%;
-        font-size: 1em;
-        text-align:center;
-    }
-
-    .navbar {
-        font-size: 1em;
-    }
-
-    #intro-image {
-        text-align:center;
-        margin-top:7%;
-    }
-}
-
 .navbar {
     z-index: 100;
     top:0;
@@ -110,4 +61,67 @@ body {
 #intro-text {
     text-align: center;
     font-style: italic;
+}
+
+#intro-image {
+    text-align: center;
+}
+
+#intro-image > img {
+    width: 100%;
+    height:auto;
+}
+
+@media (min-width:320px) and (max-width:576px) {
+    .content {
+        margin-top:20%;
+        padding-top: 15%;
+        font-size: 0.75em; 
+    }
+         
+    .navbar { 
+        background-color: blueviolet;
+        width:90%;
+        font-size: 0.70em;
+     }
+
+     #nav-separator-mid {
+         color: rgba(0,0,0,0)
+     }
+
+    #intro-text {
+        padding-top:1%;
+    }
+}
+
+@media (min-width:577px) and (max-width:979px) {
+    .content {
+        margin-top:20%;
+        padding-top: 15%;
+        font-size: 0.75em; 
+    }
+         
+    .navbar { 
+        width:90%;
+        font-size: 0.8em;
+     }
+
+     #nav-separator-mid {
+         color: rgba(0,0,0,0)
+     }
+
+    #intro-text {
+        padding-top:1%;
+    }
+}
+
+@media(min-width:980px) {
+    .content {
+        padding-top: 12%;
+        font-size: 1em;
+    }
+
+    .navbar {
+        font-size: 1em;
+    }
 }
