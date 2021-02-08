@@ -3,8 +3,10 @@ body {
 }
 
 .content {
+    position: relative;
     font-family: "Lucida Console", monospace;
     text-align: center;
+    padding-top: 5%;
 }
 
 .navbar {
@@ -103,9 +105,8 @@ body {
 
 @media (min-width:320px) and (max-width:576px) {
     .content {
-        margin-top:1%;
-        padding-top: 15%;
         font-size: 0.75em; 
+        padding-top:17%;
     }
          
     .navbar { 
@@ -152,9 +153,8 @@ body {
 
 @media (min-width:577px) and (max-width:979px) {
     .content {
-        margin-top:5%;
-        padding-top: 15%;
         font-size: 0.75em; 
+        padding-top:10%;
     }
          
     .navbar { 
@@ -180,13 +180,11 @@ body {
 
 @media(min-width:980px) {
     .content {
-        padding-top: 12%;
         font-size: 1em;
     }
 
     .navbar {
         font-size: 1em;
-        min-height:2%;
     }
 
     .navbar-links {
