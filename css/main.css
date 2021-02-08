@@ -1,3 +1,5 @@
+/* Default / common styling */
+
 body {
     background-color:#bbbaba;
 }
@@ -20,7 +22,6 @@ body {
     overflow: hidden;
 }
 
-
 .navbar-links {
     display: grid;
     grid-template-columns: 1fr 0.01fr 1fr;
@@ -32,6 +33,8 @@ body {
 
 .navbar-links-top-row {
     grid-area: nav-top-row;
+    text-align: right;
+    margin-right: 2px;
 }
 
 .navbar-links-mid-row {
@@ -40,11 +43,12 @@ body {
 
 .navbar-links-bottom-row {
     grid-area: nav-bottom-row;
+    text-align: left;
+    margin-left: 2px;
 }
 
 .navbar-title > p {
    color: #dddddd;
-   max-height: 25%;
    margin:0;
    padding:0;
 }
@@ -54,6 +58,7 @@ body {
     margin: 1px;
     padding: 1px;
 }
+
 .navbar-links li {
     color: rgba(255,255,255,100) ;
     display:inline;
@@ -103,10 +108,12 @@ body {
     height:auto;
 }
 
+/* Styling for small screens */
 @media (min-width:320px) and (max-width:576px) {
+    
     .content {
         font-size: 0.75em; 
-        padding-top:17%;
+        padding-top:19%;
     }
          
     .navbar { 
@@ -127,18 +134,7 @@ body {
          font-size: 12pt;
      }
 
-    #nav-separator-mid {
-        color: rgba(0,0,0,0);
-    }
-    
-    #intro-image {
-        margin-top:10%;
-    }
-
-    #intro-text {
-        padding-top:1%;
-    }
-
+    /* Alternate navbar layout for small screens (stacked) */
     .navbar-links {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr auto;
@@ -147,13 +143,31 @@ body {
 
     .navbar-links-mid-row {
         height:0px;
+        color: rgba(0,0,0,0)
     }
 
+    .navbar-links-top-row {
+        text-align: center;
+    }
+
+    .navbar-links-bottom-row {
+        text-align: center;
+    }
+
+    /* Intro image styling for small screens*/
+    #intro-image > img {
+        margin-top:15%;
+    }
+
+    #intro-text {
+        padding-top:1%;
+    }
 }
 
+/* Styling for mid-sized screens */
 @media (min-width:577px) and (max-width:979px) {
     .content {
-        font-size: 0.75em; 
+        font-size: 0.85em; 
         padding-top:10%;
     }
          
@@ -166,38 +180,17 @@ body {
     #intro-text {
         padding-top:1%;
     }
-
-    .navbar-links-top-row {
-        text-align: right;
-        margin-right: 2px;
-    }
-
-    .navbar-links-bottom-row {
-        text-align: left;
-        margin-left: 2px;
-    }
 }
 
+/* Styling for large screens (default) */
 @media(min-width:980px) {
     .content {
         font-size: 1em;
     }
 
     .navbar {
+        left:10%;
+        width:80%;
         font-size: 1em;
-    }
-
-    .navbar-links {
-        margin: 5px;
-    }
-
-    .navbar-links-top-row {
-        text-align: right;
-        margin-right: 2px;
-    }
-
-    .navbar-links-bottom-row {
-        text-align: left;
-        margin-left: 2px;
     }
 }
