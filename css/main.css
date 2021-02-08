@@ -144,8 +144,8 @@ body {
         height:0px;
     }
 
-    #nav-separator {
-        color: rgba(0,0,0,0)
+    .nav-separator {
+        color: rgba(0,0,0,0);
     }
 
     .navbar-links-top-row {
