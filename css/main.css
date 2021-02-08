@@ -1,16 +1,16 @@
 /* Default / common styling */
 
 body {
-    background-color:#bbbaba;
+    background-color:#dfdfdf;
 }
 
 .content {
     position: relative;
     font-family: "Lucida Console", monospace;
     text-align: center;
-    padding-top: 5%;
 }
 
+/*Define Navbar position and default width*/
 .navbar {
     z-index: 100;
     top:0;
@@ -22,13 +22,14 @@ body {
     overflow: hidden;
 }
 
+/*Define Navbar layout (grid)*/
+/*Default (big) view is contiguous right -> left (top menu of site)*/
 .navbar-links {
     display: grid;
     grid-template-columns: 1fr 0.01fr 1fr;
     grid-template-rows: 1fr;
     grid-template-areas: "nav-top-row nav-mid-row nav-bottom-row";
-    grid-gap:1px;
-    max-height:75%;
+    margin-bottom:1%;
 }
 
 .navbar-links-top-row {
@@ -96,6 +97,7 @@ body {
     background-color:rgba(0,0,0,0);
 }
 
+/**/
 #intro-text {
     text-align: center;
     font-style: italic;
@@ -159,10 +161,6 @@ body {
         margin-top:15%;
         padding-top:15%;
     }
-
-    #intro-text {
-        padding-top:1%;
-    }
 }
 
 /* Styling for mid-sized screens */
@@ -177,16 +175,13 @@ body {
         width:100%;
         font-size: 0.8em;
      }
-
-    #intro-text {
-        padding-top:1%;
-    }
 }
 
 /* Styling for large screens (default) */
 @media(min-width:980px) {
     .content {
         font-size: 1em;
+        padding-top:10%;
     }
 
     .navbar {
