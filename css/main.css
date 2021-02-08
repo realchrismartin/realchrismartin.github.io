@@ -1,13 +1,42 @@
 /* Default / common styling */
 
 body {
-    background-color:#dfdfdf;
+    background-image: url("../resources/intro.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
-.content {
+.page {
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
+    grid-template-rows: 12fr 1fr;
+    grid-template-areas: "left-sidebar content right-sidebar" "left-sidebar footer right-sidebar";
+}
+
+.left-sidebar {
+    grid-area:left-sidebar;
+}
+
+.right-sidebar {
+    grid-area:right-sidebar;
+}
+
+.footer {
+    background-color:#dfdfdf;
     position: relative;
     font-family: "Lucida Console", monospace;
     text-align: center;
+    grid-area:footer;
+}
+
+.content {
+    background-color:#dfdfdf;
+    position: relative;
+    font-family: "Lucida Console", monospace;
+    text-align: center;
+    grid-area:content;
 }
 
 /*Define Navbar position and default width*/
@@ -20,6 +49,7 @@ body {
     background-color: #333333;
     text-align:center;
     overflow: hidden;
+    grid-area:navbar;
 }
 
 /*Define Navbar layout (grid)*/
