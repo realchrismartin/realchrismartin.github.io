@@ -56,7 +56,9 @@ body {
 .navbar-links ul {
     list-style-type: none;
     margin: 1px;
-    padding: 3px;
+    padding-left:0;
+    padding-right:0;
+    padding-bottom: 3px;
 }
 
 .navbar-links li {
@@ -141,11 +143,7 @@ body {
     }
 
     .navbar-links-mid-row {
-        height:0px;
-    }
-
-    .nav-separator {
-        color: rgba(0,0,0,0);
+        display: none;
     }
 
     .navbar-links-top-row {
