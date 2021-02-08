@@ -113,7 +113,8 @@ body {
     
     .content {
         font-size: 0.75em; 
-        padding-top:19%;
+        margin-top:15%;
+        padding-top:10%;
     }
          
     .navbar { 
