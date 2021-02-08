@@ -4,6 +4,7 @@ body {
 
 .content {
     font-family: "Lucida Console", monospace;
+    text-align: center;
 }
 
 .navbar {
@@ -102,7 +103,7 @@ body {
 
 @media (min-width:320px) and (max-width:576px) {
     .content {
-        margin-top:15%;
+        margin-top:1%;
         padding-top: 15%;
         font-size: 0.75em; 
     }
@@ -181,7 +182,6 @@ body {
     .content {
         padding-top: 12%;
         font-size: 1em;
-        text-align: center;
     }
 
     .navbar {
