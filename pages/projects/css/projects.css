@@ -1,3 +1,12 @@
 #nav-link-projects {
     font-weight:bold;
 }
+
+#project-table {
+    border: 1px solid rgba(0,0,0,100);
+    width:100%;
+}
+
+tr {
+    outline: 1px solid rgba(0,0,0,100);
+}
