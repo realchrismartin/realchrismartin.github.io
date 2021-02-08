@@ -114,7 +114,7 @@ body {
     .content {
         font-size: 0.75em; 
         margin-top:15%;
-        padding-top:10%;
+        padding-top:15%;
     }
          
     .navbar { 
@@ -142,6 +142,9 @@ body {
 
     .navbar-links-mid-row {
         height:0px;
+    }
+
+    #nav-separator {
         color: rgba(0,0,0,0)
     }
 
