@@ -157,6 +157,7 @@ body {
     /* Intro image styling for small screens*/
     #intro-image > img {
         margin-top:15%;
+        padding-top:15%;
     }
 
     #intro-text {
