@@ -149,7 +149,6 @@ body {
 @media (min-width:320px) and (max-width:576px) {
     
     .page {
-        grid-template-rows: auto 1fr auto;
         grid-template-columns: 1fr 4fr 1fr;
     }
 
@@ -203,6 +202,10 @@ body {
 
 /* Styling for mid-sized screens */
 @media (min-width:577px) and (max-width:979px) {
+    .page {
+        grid-template-columns: 1fr 4fr 1fr;
+    }
+    
     .content {
         font-size: 0.85em; 
         padding-top:10%;
