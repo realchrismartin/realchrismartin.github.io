@@ -2,10 +2,6 @@
     font-weight:bold;
 }
 
-.content {
-    width:100%;
-}
-
 #contact-table {
     margin: 0 auto;
     text-align: center;
@@ -13,4 +9,5 @@
     width:20%;
     text-emphasis: bold;
     font-size: 12pt;
+    padding:10%;
 }
