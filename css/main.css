@@ -118,7 +118,7 @@ body {
     position: absolute;
     content: "";
     height: 1px;
-    width:100vw;
+    width:100%;
     left:0;
     bottom:0;
     background: #ffffff;
@@ -129,21 +129,6 @@ body {
 
 .navbar-links .nav-separator:hover {
     background-color:rgba(0,0,0,0);
-}
-
-/**/
-#intro-text {
-    text-align: center;
-    font-style: italic;
-}
-
-#intro-image {
-    text-align: center;
-}
-
-#intro-image > img {
-    width: 100vw;
-    height:auto;
 }
 
 /* Styling for small screens */
