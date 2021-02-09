@@ -218,3 +218,66 @@ body {
         font-size: 1em;
     }
 }
+
+ @media(-webkit-min-device-pixel-ratio:3) { 
+
+    .page {
+        grid-template-columns: 1fr 4fr 1fr;
+    }
+
+    .content {
+        font-size: 2em; 
+        margin-top:15vh;
+        padding-top:15vh;
+    }
+    .navbar-links a {
+        font-size: 2em;
+    }
+   
+    .navbar-title {
+        font-size: 2em;
+    }
+
+    .nav-separator {
+        font-size: 2em;
+    }
+    .navbar { 
+        width:100vw;
+        left:0;
+     }
+
+    .navbar-title {
+        margin:2px;
+        padding:5px;
+        font-size: 14pt;
+    }
+
+    .navbar-links ul {
+         font-size: 12pt;
+     }
+
+    /* Alternate navbar layout for small screens (stacked) */
+    .navbar-links {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr auto;
+        grid-template-areas: "nav-top-row" "nav-bottom-row";
+    }
+
+    .navbar-links-mid-row {
+        display: none;
+    }
+
+    .navbar-links-top-row {
+        text-align: center;
+    }
+
+    .navbar-links-bottom-row {
+        text-align: center;
+    }
+
+    /* Intro image styling for small screens*/
+    #intro-image > img {
+        margin-top:15vh;
+        padding-top:15vh;
+    }
+}
