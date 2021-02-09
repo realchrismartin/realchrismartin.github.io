@@ -84,7 +84,7 @@ body {
 .navbar-title > p {
    color: #dddddd;
    margin:0;
-   padding:0;
+   padding:1%;
 }
 
 .navbar-links ul {
@@ -148,6 +148,11 @@ body {
 /* Styling for small screens */
 @media (min-width:320px) and (max-width:576px) {
     
+    .page {
+        grid-template-rows: auto 1fr auto;
+        grid-template-columns: 1fr 4fr 1fr;
+    }
+
     .content {
         font-size: 0.75em; 
         margin-top:15%;
