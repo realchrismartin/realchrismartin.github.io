@@ -38,9 +38,8 @@ body {
     margin-top: 15vh;
     padding: 1vh;
     padding-top:0.5vh;
-    background-color: rgba(231,227,220);
+    background-color: rgba(231,227,220,100);
     opacity:0.80;
-    position: relative;
     font-family: 'Avanta Garda' sans-serif;
     font-size:1em;
     text-align: center;
@@ -190,14 +189,14 @@ body {
     }
 
     .content {
-        font-size: 3em; 
+        font-size: 1.5em; 
     }
     .navbar-links a {
-        font-size: 1em;
+        font-size: 1.3em;
     }
    
     .navbar-title {
-        font-size: 1.4em;
+        font-size: 1.5em;
     }
 
     .nav-separator {
@@ -214,7 +213,7 @@ body {
     }
 
     .navbar-links ul {
-         font-size: 4em;
+         font-size: 1em;
      }
 
     /* Alternate navbar layout for small high-res screens (stacked) */
