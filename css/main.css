@@ -50,8 +50,8 @@ body {
 .navbar {
     z-index: 100;
     top:0;
-    left:10vw;
-    width:80vw;
+    left:30vw;
+    width:40vw;
     position: fixed;
     background-color: #333333;
     text-align:center;
@@ -135,31 +135,10 @@ body {
 }
 
 /* Styling for small screens */
-@media(-webkit-min-device-pixel-ratio:3) and (max-width:576px) {
-    
+@media(max-width:576px) {
     .page {
         grid-template-columns: 1fr 4fr 1fr;
     }
-
-    .content {
-        font-size: 1.5em; 
-    }
-         
-    .navbar { 
-        width:100vw;
-        left:0;
-        font-size: 1.3em;
-     }
-
-    .navbar-title {
-        margin:2px;
-        padding:5px;
-        font-size: 1.4em;
-    }
-
-    .navbar-links ul {
-         font-size: 1em;
-     }
 
     /* Alternate navbar layout for small screens (stacked) */
     .navbar-links {
@@ -179,44 +158,21 @@ body {
     .navbar-links-bottom-row {
         text-align: center;
     }
+
+    .navbar {
+        left:0;
+        width:100vw;
+    }
 }
 
-/* Styling for high-res mobile screens */
- @media(-webkit-min-device-pixel-ratio:3) and (min-width:577px) { 
-
+/* Styling for mobile screens */
+@media(-webkit-min-device-pixel-ratio:3) {
+    
     .page {
         grid-template-columns: 1fr 4fr 1fr;
     }
 
-    .content {
-        font-size: 1em; 
-    }
-    .navbar-links a {
-        font-size: 1.3em;
-    }
-   
-    .navbar-title {
-        font-size: 1.5em;
-    }
-
-    .nav-separator {
-        font-size: 1em;
-    }
-    .navbar { 
-        width:100vw;
-        left:0;
-     }
-
-    .navbar-title {
-        margin:2px;
-        padding:5px;
-    }
-
-    .navbar-links ul {
-         font-size: 1em;
-     }
-
-    /* Alternate navbar layout for small high-res screens (stacked) */
+    /* Alternate navbar layout for small screens (stacked) */
     .navbar-links {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr auto;
@@ -234,4 +190,32 @@ body {
     .navbar-links-bottom-row {
         text-align: center;
     }
+
+    .navbar {
+        left:0;
+        width:100vw;
+    }
+}
+
+/* Styling for high-res mobile screens */
+ @media(-webkit-min-device-pixel-ratio:3) and (min-width:577px) { 
+
+    .content {
+        font-size: 1em; 
+    }
+    .navbar-links a {
+        font-size: 1.3em;
+    }
+   
+    .navbar-title {
+        font-size: 1.5em;
+    }
+
+    .nav-separator {
+        font-size: 1em;
+    }
+
+    .navbar-links ul {
+         font-size: 1em;
+     }
 }
