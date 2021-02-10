@@ -2,12 +2,24 @@
     font-weight:bold;
 }
 
+.content {
+   background-color: rgba(255,255,255,0);
+   font-size: 300%;
+}
+
 #contact-table {
+    background-color: rgba(231,227,220);
     margin: 0 auto;
     text-align: center;
+    max-width: 0;
     border: 1px solid rgba(0,0,0,100);
-    width:20%;
     text-emphasis: bold;
-    font-size: 12pt;
-    padding:10%;
+}
+
+a {
+    color: rgba(0,0,0);
+    text-decoration: none;
+    padding: 2px 6px 6px 2px;
+    margin-top: 1vh;
+    padding: 1vh;
 }
