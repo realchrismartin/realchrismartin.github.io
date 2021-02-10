@@ -204,18 +204,14 @@ body {
         font-size: 2em; 
     }
     .navbar-links a {
-        font-size: 3.3em;
+        font-size: 2em;
     }
    
     .navbar-title {
-        font-size: 3.5em;
+        font-size: 2em;
     }
 
     .nav-separator {
-        font-size: 3em;
+        font-size: 2em;
     }
-
-    .navbar-links ul {
-         font-size: 3em;
-     }
 }
