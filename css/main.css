@@ -1,7 +1,7 @@
 /* Default / common styling */
 
 body {
-    background-image: url("../resources/intro.jpg");
+    background: url("../resources/intro.jpg");
     background-position: center center;
     background-size: cover;
     background-repeat: vertical;
@@ -144,18 +144,6 @@ body {
 
     .content {
         font-size: 1.5em; 
-    }
-    .content {
-        margin-top: 15vh;
-        padding: 1vh;
-        padding-top:0.5vh;
-        background-color: rgba(231,227,220);
-        opacity:0.80;
-        position: relative;
-        font-family: 'Avanta Garda' sans-serif;
-        font-size:1em;
-        text-align: center;
-        grid-area:content;
     }
          
     .navbar { 
