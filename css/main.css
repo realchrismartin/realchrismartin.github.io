@@ -183,7 +183,7 @@ body {
 }
 
 /* Styling for high-res mobile screens */
- @media(-webkit-min-device-pixel-ratio:3) { 
+ @media(-webkit-min-device-pixel-ratio:3) and (min-width:992px) { 
 
     .page {
         grid-template-columns: 1fr 4fr 1fr;
@@ -193,7 +193,7 @@ body {
         font-size: 3em; 
     }
     .navbar-links a {
-        font-size: 4em;
+        font-size: 5em;
     }
    
     .navbar-title {
