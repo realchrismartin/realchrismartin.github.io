@@ -214,4 +214,8 @@ body {
     .nav-separator {
         font-size: 2em;
     }
+
+    .navbar-links ul {
+        font-size: 2em;
+    }
 }
