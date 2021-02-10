@@ -201,21 +201,21 @@ body {
  @media(-webkit-min-device-pixel-ratio:3) and (min-width:577px) { 
 
     .content {
-        font-size: 1em; 
+        font-size: 2em; 
     }
     .navbar-links a {
-        font-size: 1.3em;
+        font-size: 3.3em;
     }
    
     .navbar-title {
-        font-size: 1.5em;
+        font-size: 3.5em;
     }
 
     .nav-separator {
-        font-size: 1em;
+        font-size: 3em;
     }
 
     .navbar-links ul {
-         font-size: 1em;
+         font-size: 3em;
      }
 }
