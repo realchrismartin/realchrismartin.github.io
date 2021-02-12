@@ -112,6 +112,7 @@ body {
     padding: 3px;
 }
 
+/* "Underline on Hover" effect on navbar links*/
 .navbar-links a:hover::after {
     transform: scaleX(1);
     transform-origin: left;
