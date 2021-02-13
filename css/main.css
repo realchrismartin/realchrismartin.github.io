@@ -47,7 +47,7 @@ body {
   padding-top: 0.5vh;
   background-color: rgba(231, 227, 220, 100);
   opacity: 0.8;
-  font-family: "Avanta Garda" sans-serif;
+  font-family: "Avanta Garda";
   font-size: 1em;
   text-align: center;
   grid-area: content;
