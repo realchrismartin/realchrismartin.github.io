@@ -1,16 +1,16 @@
 #nav-link-projects {
-    font-weight:bold;
+  font-weight: bold;
 }
 
 #project-table {
-    border: 1px solid rgba(0,0,0,100);
+  border: 1px solid rgba(0, 0, 0, 100);
 }
 
 tr {
-    outline: 1px solid rgba(0,0,0,100);
+  outline: 1px solid rgba(0, 0, 0, 100);
 }
 
 td {
-    padding-left:2vh;
-    padding-right:2vh;
+  padding-left: 2vh;
+  padding-right: 2vh;
 }

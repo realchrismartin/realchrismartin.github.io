@@ -1,18 +1,18 @@
 #nav-link-philosophy {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .quote {
-    text-align: center;
-    font-style: italic;
+  text-align: center;
+  font-style: italic;
 }
 
 .source {
-    text-align: center;
-    font-style: normal;
-    font-weight:bold;
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
 }
 
 .topic {
-    font-weight: normal;
+  font-weight: normal;
 }
