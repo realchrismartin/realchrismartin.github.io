@@ -2,6 +2,10 @@
   font-weight: bold;
 }
 
+.content p {
+  padding:0.5vh;
+}
+
 #name {
   font-weight: bold;
 }

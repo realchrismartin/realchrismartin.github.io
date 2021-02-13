@@ -2,15 +2,26 @@
   font-weight: bold;
 }
 
+.quotes {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-content: space-between;
+  padding: 0.5vh;
+}
+
 .quote {
   text-align: center;
   font-style: italic;
+  padding-top: 2vh;
 }
 
 .source {
   text-align: center;
   font-style: normal;
   font-weight: bold;
+  padding-top: 0.5vh;
 }
 
 .topic {

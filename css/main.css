@@ -20,7 +20,7 @@ body {
   min-height: 100vh;
   min-width: 100vw;
   grid-template-rows: auto 1fr;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1.4fr 1fr;
   grid-template-areas: "left-sidebar content right-sidebar" "left-sidebar footer right-sidebar";
 }
 
@@ -57,8 +57,8 @@ body {
 .navbar {
   z-index: 100;
   top: 0;
-  left: 30vw;
-  width: 40vw;
+  left: 20vw;
+  width: 60vw;
   position: fixed;
   background-color: #333333;
   text-align: center;
