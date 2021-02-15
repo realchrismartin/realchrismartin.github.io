@@ -209,8 +209,7 @@ body {
 @media (-webkit-min-device-pixel-ratio: 3) and (min-width: 577px) {
   .content {
     font-size: 2em;
-    padding-top: 2vh;
-    margin-top: 2vh;
+    padding-top: 7vh;
   }
   .navbar-links a {
     font-size: 1.5em;
