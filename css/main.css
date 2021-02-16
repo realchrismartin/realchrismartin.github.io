@@ -190,15 +190,13 @@ body {
   }
 
   .navbar-links a {
-    font-size: 1.2em;
+    margin:0;
+    padding:0;
   }
 
-  .navbar-title {
-    font-size: 1.2em;
-  }
-
-  .nav-separator {
-    font-size: 1.2em;
+  .navbar-links ul {
+    margin:0;
+    padding:0;
   }
 
   /* Alternate navbar layout for small screens (stacked) */
