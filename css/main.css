@@ -215,7 +215,7 @@ body {
 }
 
 /* Styling for high-res mobile screens */
-@media (-webkit-min-device-pixel-ratio: 3) and (min-width: 577px) {
+@media (-webkit-min-device-pixel-ratio: 3) {
   
   .content {
     font-size: 2em;
