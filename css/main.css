@@ -188,7 +188,7 @@ body {
   /* Alternate navbar layout for small screens (stacked) */
   .navbar-links {
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr auto;
+    grid-template-rows: 1fr 1fr;
     grid-template-areas: "nav-top-row" "nav-bottom-row";
   }
 
@@ -207,10 +207,6 @@ body {
   .navbar {
     left: 0;
     width: 100vw;
-  }
-
-  .navbar-links ul {
-    padding:0;
   }
 }
 
