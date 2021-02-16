@@ -148,10 +148,6 @@ body {
   .page {
     grid-template-columns: 1fr 4fr 1fr;
   }
-  
-  .content {
-    padding-top: 8vh;
-  }
 
   /* Alternate navbar layout for small screens (stacked) */
   .navbar-links {
