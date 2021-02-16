@@ -189,21 +189,12 @@ body {
     padding-top: 8vh;
   }
 
-  .navbar-links a {
-    margin:0;
-    padding:0;
-  }
-
-  .navbar-links ul {
-    margin:0;
-    padding:0;
-  }
-
   /* Alternate navbar layout for small screens (stacked) */
   .navbar-links {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
     grid-template-areas: "nav-top-row" "nav-bottom-row";
+    margin:0;
   }
 
   .navbar-links-mid-row {
