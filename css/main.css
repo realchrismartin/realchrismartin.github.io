@@ -190,7 +190,6 @@ body {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
     grid-template-areas: "nav-top-row" "nav-bottom-row";
-    margin:0;
   }
 
   .navbar-links-mid-row {
