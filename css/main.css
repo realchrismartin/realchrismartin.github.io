@@ -176,6 +176,11 @@ body {
 
 /* Styling for mobile screens */
 @media (-webkit-min-device-pixel-ratio: 3) {
+  
+  .content {
+    padding-top: 8vh;
+  }
+
   .page {
     grid-template-columns: 1fr 4fr 1fr;
   }
@@ -209,7 +214,6 @@ body {
 @media (-webkit-min-device-pixel-ratio: 3) and (min-width: 577px) {
   .content {
     font-size: 2em;
-    padding-top: 7vh;
     background-color: blueviolet;
   }
   .navbar-links a {
