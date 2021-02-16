@@ -148,6 +148,10 @@ body {
   .page {
     grid-template-columns: 1fr 4fr 1fr;
   }
+  
+  .content {
+    padding-top: 8vh;
+  }
 
   /* Alternate navbar layout for small screens (stacked) */
   .navbar-links {
@@ -176,13 +180,13 @@ body {
 
 /* Styling for mobile screens */
 @media (-webkit-min-device-pixel-ratio: 3) {
-  
-  .content {
-    padding-top: 8vh;
-  }
 
   .page {
     grid-template-columns: 1fr 4fr 1fr;
+  }
+  
+  .content {
+    padding-top: 8vh;
   }
 
   /* Alternate navbar layout for small screens (stacked) */
@@ -212,10 +216,11 @@ body {
 
 /* Styling for high-res mobile screens */
 @media (-webkit-min-device-pixel-ratio: 3) and (min-width: 577px) {
+  
   .content {
     font-size: 2em;
-    background-color: blueviolet;
   }
+
   .navbar-links a {
     font-size: 2em;
   }
