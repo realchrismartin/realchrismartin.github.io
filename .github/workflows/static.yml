@@ -56,7 +56,8 @@ jobs:
       - name: Move files into artifact
         run: |
           mkdir -p build_artifact
-          cp -rf extern/possum-world/www/dist/ build_artifact/dist
+          cp -rf extern/possum-world/static/* build_artifact/
+          cp -rf extern/possum-world/www/dist/ build_artifact/possumworld
           cp -rf css build_artifact/css
           cp -rf pages build_artifact/pages
           cp -rf index.html build_artifact/index.html
