@@ -1,0 +1,3 @@
+[submodule "extern/possum-world"]
+	path = extern/possum-world
+	url = https://github.com/realchrismartin/possum-world.git
