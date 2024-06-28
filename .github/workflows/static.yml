@@ -57,7 +57,8 @@ jobs:
         run: |
           mkdir -p build_artifact
           cp -rf extern/possum-world/static/* build_artifact/
-          cp -rf extern/possum-world/www/dist/ build_artifact/possumworld
+          rm extern/possum-world/www/dist/index.html
+          cp -rf extern/possum-world/www/dist/ build_artifact/projects
           cp -rf css build_artifact/css
           cp -rf pages build_artifact/pages
           cp -rf resources build_artifact/resources
