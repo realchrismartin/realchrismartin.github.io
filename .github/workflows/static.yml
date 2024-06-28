@@ -63,6 +63,7 @@ jobs:
           cp -rf extern/possum-world/www/dist/* build_artifact/pages/projects/
           cp -rf resources build_artifact/resources
           cp -rf index.html build_artifact/index.html
+          ls -la build_artifact/pages/projects/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
