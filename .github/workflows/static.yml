@@ -51,7 +51,7 @@ jobs:
         run: npm install
         working-directory: extern/possum-world/www/
       - name: Build Node Deps
-        run: npm build
+        run: npm run-script build
         working-directory: extern/possum-world/www/
       - name: Move files into artifact
         run: |
