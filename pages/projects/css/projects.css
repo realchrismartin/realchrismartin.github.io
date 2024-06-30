@@ -5,6 +5,8 @@
 .content {
   opacity: 1.0;
   background-color: rgba(231, 227, 220, 255);
+  min-width: 100vw;
+  min-height: 80vh;
 }
 
 #project-list {
