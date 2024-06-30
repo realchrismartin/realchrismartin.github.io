@@ -3,13 +3,8 @@
 }
 
 .content {
-  opacity: 0.8;
-  margin-top: 15vh;
-  padding: 1vh;
-  padding-top: 0.5vh;
+  opacity: 1.0;
   background-color: rgba(231, 227, 220, 255);
-  font-size: 1em;
-  grid-area: content;
 }
 
 #project-list {
