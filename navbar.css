@@ -140,14 +140,10 @@
   .navbar-links-bottom-row {
     text-align: center;
   }
-
-  .navbar {
-    width: 100vw;
-  }
 }
 
 /* Styling for high-res mobile screens */
-@media (-webkit-min-device-pixel-ratio: 3) and (min-width: 577px) {
+@media (-webkit-min-device-pixel-ratio: 3) and (min-width: 577px) and (orientation: portrait) {
 
   .navbar-links a {
     font-size: 2em;
@@ -163,5 +159,24 @@
 
   .navbar-links ul {
     font-size: 1.5em;
+  }
+}
+
+/* Style for mobile screens in landscape mode */
+@media (-webkit-min-device-pixel-ratio: 3) and (min-width: 577px) and (orientation: landscape) {
+  .navbar-links a {
+    font-size: 1em;
+  }
+
+  .navbar-title {
+    font-size: 1em;
+  }
+
+  .nav-separator {
+    font-size: 1em;
+  }
+
+  .navbar-links ul {
+    font-size: 1em;
   }
 }

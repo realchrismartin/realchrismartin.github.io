@@ -2,6 +2,10 @@
   font-weight: bold;
 }
 
+html,body {
+  overflow-y: hidden;
+}
+
 /* Override the page grid layout to fit the canvas */
 .page {
   grid-template-rows: auto 1fr 0fr;
