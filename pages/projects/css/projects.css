@@ -2,11 +2,19 @@
   font-weight: bold;
 }
 
+/* Override the page grid layout to fit the canvas */
+.page {
+  grid-template-rows: auto 1fr;
+  grid-template-columns: 1fr;
+  grid-template-areas: "content" "footer";
+}
+
 .content {
   opacity: 1.0;
   background-color: rgba(231, 227, 220, 255);
   min-width: 60vw;
   min-height: 60vw;
+  margin-top: 5vh;
 }
 
 .container
@@ -33,3 +41,12 @@
 #project-table td {
   padding: 2vh;
 }
+
+/* Styling for mobile screens */
+@media (-webkit-min-device-pixel-ratio: 3) {
+
+.content {
+  margin-top: 10vh;
+}
+}
+
