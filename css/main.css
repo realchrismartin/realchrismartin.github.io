@@ -57,13 +57,6 @@ body {
   }
 }
 
-/* Styling for mobile screens */
-@media (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
-  html,body {
-    overflow-y: scroll
-  }
-}
-
 /* Styling for high-res mobile screens */
 @media (-webkit-min-device-pixel-ratio: 3) and (min-width: 577px) {
   .content {
