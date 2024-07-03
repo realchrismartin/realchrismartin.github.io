@@ -1,0 +1,24 @@
+#nav-link-contact {
+  font-weight: bold;
+}
+
+.content {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+#contactTable {
+  background-color: rgba(231, 227, 220,80);
+  margin: 0 auto;
+  text-align: center;
+  max-width: 0;
+  border: 1px solid rgba(0, 0, 0, 100);
+  text-emphasis: bold;
+  font-size: 300%;
+}
+
+#contactTable a {
+  color: black;
+  text-decoration: none;
+  padding: 2px 6px 6px 2px;
+  padding: 1vh;
+}
