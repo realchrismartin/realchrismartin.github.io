@@ -56,14 +56,15 @@ jobs:
       - name: Move files into artifact
         run: |
           mkdir -p build_artifact
-          cp -rf extern/possum-world/static/* build_artifact/
+          mkdir -p build_artifact/projects
           rm extern/possum-world/www/dist/index.html
-          cp -rf css build_artifact/css
-          cp -rf pages build_artifact/pages
+
+          cp -rf extern/possum-world/static/* build_artifact/
           cp -rf extern/possum-world/www/dist/* build_artifact/projects/
-          cp -rf resources build_artifact/resources
-          cp -rf index.html build_artifact/index.html
-          ls -la build_artifact/projects/
+          rm -rf extern/
+
+          cp -rf * build_artifact/
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
