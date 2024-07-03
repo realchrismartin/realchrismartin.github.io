@@ -16,7 +16,9 @@
 .content {
   opacity: 1.0;
   background-color: rgba(231, 227, 220, 255);
-  margin-top: 0vh;
+  margin-top: 0;
+  padding: 0;
+  padding-top: 0;
 }
 
 .container
