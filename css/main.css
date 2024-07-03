@@ -26,10 +26,6 @@ body {
   grid-template-rows: auto 1fr 1fr;
   grid-template-columns: 1fr 1.4fr 1fr;
   grid-template-areas: "left-sidebar navbar right-sidebar" "left-sidebar content right-sidebar" "left-sidebar footer right-sidebar";
-  /*
-  height: 100%;
-  width: 100%;
-  */
 }
 
 .left-sidebar {

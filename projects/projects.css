@@ -4,10 +4,7 @@
 
 /* Override the page grid layout to fit the canvas */
 .page {
-  display: grid;
   grid-template-rows: auto 1fr 0fr;
-  grid-template-columns: 1fr 1.4fr 1fr;
-  grid-template-areas: "left-sidebar navbar right-sidebar" "left-sidebar content right-sidebar" "left-sidebar footer right-sidebar";
 }
 
 .content {
