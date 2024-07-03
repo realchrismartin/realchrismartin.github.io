@@ -55,20 +55,20 @@ jobs:
         working-directory: extern/possum-world/www/
       - name: Move files into artifact
         run: |
-          mkdir -p build_artifact
-          mkdir -p build_artifact/projects
+          mkdir -p ../build_artifact
+          mkdir -p ../build_artifact/projects
           rm extern/possum-world/www/dist/index.html
 
-          cp -rf extern/possum-world/static/* build_artifact/
-          cp -rf extern/possum-world/www/dist/* build_artifact/projects/
+          cp -rf extern/possum-world/static/* ../build_artifact/
+          cp -rf extern/possum-world/www/dist/* ../build_artifact/projects/
           rm -rf extern/
 
-          cp -rf * build_artifact/
+          cp -rf * ../build_artifact/
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './build_artifact'
+          path: '../build_artifact'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
