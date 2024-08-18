@@ -1,6 +1,6 @@
 <div align="center">
 
-  <h1>[TheRealChrisMartin.com](https://therealchrismartin.com)</h1>
+  [TheRealChrisMartin.com](https://therealchrismartin.com)
   
   <p>
   My personal portfolio site.
