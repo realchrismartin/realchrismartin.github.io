@@ -30,41 +30,11 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          submodules: true
       - name: Setup Pages
         uses: actions/configure-pages@v5
-      - name: Set up Rust
-        uses: actions-rs/toolchain@v1
-        with:
-          toolchain: stable
-          target: wasm32-unknown-unknown
-      - name: Install wasm-pack
-        run: |
-          curl https://rustwasm.github.io/wasm-pack/installer/init.sh -sSf | sh
-      - name: Build WASM pack
-        run: wasm-pack build
-        working-directory: extern/possum-world/www/
-      - name: Setup Node
-        uses: actions/setup-node@v4.0.2
-      - name: Install Node Deps
-        run: npm install
-        working-directory: extern/possum-world/www/
-      - name: Build Node Deps
-        run: npm run-script build
-        working-directory: extern/possum-world/www/
       - name: Move files into artifact
         run: |
-          mkdir -p ../build_artifact
-          mkdir -p ../build_artifact/projects
-          rm extern/possum-world/www/dist/index.html
-
-          cp -rf extern/possum-world/static/* ../build_artifact/
-          cp -rf extern/possum-world/www/dist/* ../build_artifact/projects/
-          rm -rf extern/
-
           cp -rf * ../build_artifact/
-
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

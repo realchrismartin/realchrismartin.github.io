@@ -2,28 +2,12 @@
   font-weight: bold;
 }
 
-html,body {
-  overflow-y: hidden;
-}
-
-/* Override the page grid layout to fit the canvas */
-.page {
-  grid-template-rows: auto 1fr 0fr;
-}
-
 .content {
   opacity: 1.0;
   background-color: transparent;
   margin-top: 0;
   padding: 0;
   padding-top: 0;
-}
-
-.container
-{
-  height: 100vh;
-  width: 100vw;
-  touch-action: none; /* Allow dragging on the canvas */
 }
 
 #project-list {
